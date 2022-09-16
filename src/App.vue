@@ -1,26 +1,37 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<section>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <div class="employee1">
+                <h1>Employees</h1>
+            </div>
+            <div class="employee1">
+              <employee-table-vue />
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+      </div>
+  </div>
+</section>
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import EmployeeTableVue from './components/EmployeeTable.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+     EmployeeTableVue
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.employee1
+{
+  display:flex;
+  justify-content: center;
 }
 </style>
