@@ -1,0 +1,27 @@
+@media only screen and (max-width:1920px){
+    .from{
+        border: 1px solid #dbdbdb;
+        width:60%;
+        height: auto;
+        padding:5%;
+        box-shadow: 0px 0px 2px #0c0c0c;
+    }
+}
+@media only screen and (min-width:320px)and (max-width:767px){
+    .from{
+        border: 1px solid #dbdbdb;
+        width:100%;
+        height: auto;
+        padding:5%;
+        box-shadow: 0px 0px 2px #0c0c0c;
+    }
+    h1 {
+        font-size: 1.5rem;
+        color: #00a2ff;
+        padding-bottom: 10px;
+    }
+    .table{
+        width:100%;
+        height: auto;
+    }
+}
